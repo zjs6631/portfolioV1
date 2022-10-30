@@ -74,6 +74,17 @@ input, select, textarea {
 
 /* Basic */
 
+	.projectBtn{
+		border-style: none;
+		color: #f7f7f7;
+		background-color: #787878;
+		border-radius: 5px;
+	}
+
+	.projectBtn:hover{
+		background-color: #a2a2a2;
+		color: #fff;
+	}
 	#work{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -1792,6 +1803,8 @@ input, select, textarea {
 	section.special, article.special {
 		text-align: center;
 	}
+
+	
 
 	header p {
 		color: #b2b2b2;
